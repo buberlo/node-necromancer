@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+.npm/
+.yarn/
+.pnpm-store/
+
+# Local Ghost state
+# Caches, scan snapshots, warning caches, and weekly report timestamps.
+.ghost/
+.ghost-cache/
+.ghost-cache.json
+.ghost-state.json
+.ghost-report.json
+.ghost-weekly.json
+.ghost-last-report.json
+.ghost-scan.json
+.ghost-warnings.json
+
+# Optional local Ghost config overrides
+.ghostrc.local.json
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS and editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Test and build artifacts
+coverage/
+.nyc_output/
+dist/
+build/
